@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./index.css" rel="stylesheet" />
+  </head>
+  <body
+    class="antialiased bg-gradient-to-r from-teal-900 to-stone-900 body-font font-poppins"
+  >
+    <main class="container w-full mx-auto h-screen flex">
+      <!-- vertical sidebar -->
+      <section class="border-r-2 border-slate-50 flex flex-col justify-between">
+        <!-- logo -->
+        <div
+          class="p-5 font-bold text-center text-white text-3xl tracking-wide leading-[72px]"
+        >
+          Xae
+        </div>
+
+        <!-- social icons -->
+        <div class="p-6 h-1/4 font-bold flex flex-col justify-between">
+          <svg
+            class="h-6 mx-auto fill-slate-300"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            aria-hidden="true"
+            role="img"
+            class="iconify iconify--ri"
+            width="4em"
+            height="4em"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            aria-hidden="true"
+            role="img"
+            class="h-6 mx-auto fill-slate-300"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M18 3H6C4.3 3 3 4.3 3 6v12c0 1.7 1.3 3 3 3h12c1.7 0 3-1.3 3-3V6c0-1.7-1.3-3-3-3zm-6 6c1.7 0 3 1.3 3 3s-1.3 3-3 3s-3-1.3-3-3s1.3-3 3-3zm3.8-2c0-.7.6-1.2 1.2-1.2s1.2.6 1.2 1.2s-.5 1.2-1.2 1.2s-1.2-.5-1.2-1.2zM18 19H6c-.6 0-1-.4-1-1v-6h2c0 2.8 2.2 5 5 5s5-2.2 5-5h2v6c0 .6-.4 1-1 1z"
+            ></path>
+          </svg>
+
+          <svg
+            class="h-6 mx-auto fill-slate-300"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            aria-hidden="true"
+            role="img"
+            class="iconify iconify--mdi"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z"
+            ></path>
+          </svg>
+        </div>
+      </section>
+
+      <!-- main section -->
+      <section class="w-full max-h-max grid grid-rows-3">
+        <!-- navigation -->
+        <header class="flex w-full py-3 row-span-1">
+          <nav class="ml-auto h-fit mt-6 mr-7 space-x-4">
+            <a
+              href="#"
+              class="p-4 leading-3 text-white font-bold hover:border-b-2 border-white transition-all"
+              >Home</a
+            >
+            <a
+              href="#"
+              class="p-4 leading-3 text-white font-bold hover:border-b-2 border-white transition-all"
+              >About</a
+            >
+            <a
+              href="#"
+              class="p-4 leading-3 text-white font-bold hover:border-b-2 border-white transition-all"
+              >Gallery</a
+            >
+            <a
+              href="#"
+              class="p-4 leading-3 text-white font-bold hover:border-b-2 border-white transition-all"
+              >Contact</a
+            >
+          </nav>
+        </header>
+
+        <!-- hero section -->
+        <section
+          class="container grid grid-cols-2 gap-7 items-center bg-hero-pattern bg-right-top bg-no-repeat mx-auto row-span-2 bg-cover"
+        >
+          <div class="col-span-1 flex flex-col p-3 px-20 justify-center">
+            <p class="text-6xl text-white font-bold mb-5 leading-[79px]">
+              Adventure Together
+            </p>
+            <p class="font-medium leading-5 text-slate-50">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat
+              id potenti faucibus nec, rhoncus, vulputate vitae. Dictum rutrum
+              ut cras nullam porta id dolor arcu.
+            </p>
+          </div>
+          <img
+            class="inline-block col-start-2 relative right-10 bottom-16"
+            src="./assets/astronaut.svg"
+            alt=""
+          />
+        </section>
+        <!-- footer -->
+        <section
+          class="row-span-3 bg-stone-800 opacity-80 flex overflow-hidden text-white justify-around space-x-8 px-20"
+        >
+          <div class="relative">
+            <img class="relative" src="/assets/moon.png" alt="" />
+          </div>
+          <div class="grid grid-flow-col place-items-center grid-cols-3 w-full">
+            <div class="space-y-3">
+              <h1 class="font-bold">Exploration</h1>
+              <p class="font-medium">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Placerat id potenti faucibus nec, rhoncus, vulputate
+              </p>
+            </div>
+            <div class="place-self-end mx-auto mb-8">
+              <img src="/assets/arrow.png" alt="" />
+            </div>
+            <div class="space-y-6 mt-0">
+              <h1 class="font-bold">Footprint</h1>
+              <p class="font-medium">Lorem ipsum dolor sit amet, consectetur</p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <!--     <script type="module" src="/main.js"></script> -->
+  </body>
+</html>
